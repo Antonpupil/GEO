@@ -1,0 +1,22 @@
+{
+  "proxy": {
+    "/geo/list": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/geo": ""
+      }
+    },
+    "/geo/add": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/geo": ""
+      }
+    },
+    "/geo/coords": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/geo": ""
+      }
+    }
+  }
+}
